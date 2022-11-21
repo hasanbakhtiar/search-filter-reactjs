@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Users from "../data/Users";
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
   
   return (
     <div className="container mt-5 me-5">
+      <Link to="/filter">category filter</Link>
       <div className="col-6">
         <div className="input-group mb-3">
           <input

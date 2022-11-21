@@ -1,4 +1,11 @@
-const Users = [
+type userdata ={
+  userId:number,
+  id:number,
+  title:string,
+  body:string
+}
+
+const Users:userdata[] = [
     {
       "userId": 1,
       "id": 1,
